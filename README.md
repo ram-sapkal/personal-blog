@@ -33,7 +33,7 @@ A full-stack blog platform built with the **MERN stack** (MongoDB, Express.js, R
 ```bash
 personal-blog/
 ├── client/         # Frontend (Next.js)
-├── server/         # Backend (Express.js)
+├── backend/         # Backend (Express.js)
 └── README.md
 ```
 
@@ -112,7 +112,7 @@ Visit 👉 http://localhost:3000
 
 ```bash
 # Terminal 1 - Start Backend
-cd server
+cd backend
 npm run dev
 
 # Terminal 2 - Start Frontend
