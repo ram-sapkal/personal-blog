@@ -75,7 +75,7 @@ export default function DashboardPage() {
             ))}
           </ul>
         ) : (
-          <p className="text-gray-500 text-center mt-8">You haven't created any posts yet.</p>
+          <p className="text-gray-500 text-center mt-8">{`You haven't created any posts yet.`}</p>
         )}
       </main>
 
